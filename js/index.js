@@ -21,4 +21,17 @@ for(let i = 1; i < numerito; i++){
     alert("Hola");
 }
 
+alert("Ultimo jueguito...");
+
+let adivinanza = parseInt(prompt("Jugate por un numero a ver si adivinas el que estoy pensando..."));
+
+alert("Si no adivinas terminara el juego...")
+
+if(adivinanza==7){
+    alert("adivinaste!!!");
+}
+
+alert("El juego ha terminado...")
+
+
 alert("Muchas gracias por probar mis primeros codigos en JavaScript!!");
